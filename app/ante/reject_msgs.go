@@ -1,9 +1,9 @@
 package ante
 
 import (
+	evmtypes "github.com/Canto-Network/ethermint-test/x/evm/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	evmtypes "github.com/evmos/ethermint/x/evm/types"
 )
 
 // RejectMessagesDecorator prevents invalid msg types from being executed

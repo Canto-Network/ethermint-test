@@ -5,11 +5,11 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/evmos/ethermint/app/ante"
-	"github.com/evmos/ethermint/server/config"
-	"github.com/evmos/ethermint/tests"
-	"github.com/evmos/ethermint/x/evm/statedb"
-	evmtypes "github.com/evmos/ethermint/x/evm/types"
+	"github.com/Canto-Network/ethermint-test/app/ante"
+	"github.com/Canto-Network/ethermint-test/server/config"
+	"github.com/Canto-Network/ethermint-test/tests"
+	"github.com/Canto-Network/ethermint-test/x/evm/statedb"
+	evmtypes "github.com/Canto-Network/ethermint-test/x/evm/types"
 
 	ethtypes "github.com/ethereum/go-ethereum/core/types"
 )

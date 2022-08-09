@@ -6,13 +6,13 @@ import (
 	"testing"
 	"time"
 
+	"github.com/Canto-Network/ethermint-test/ethereum/eip712"
+	"github.com/Canto-Network/ethermint-test/types"
 	"github.com/cosmos/cosmos-sdk/codec"
 	"github.com/cosmos/cosmos-sdk/x/auth/legacy/legacytx"
 	types2 "github.com/cosmos/cosmos-sdk/x/bank/types"
 	types3 "github.com/cosmos/cosmos-sdk/x/staking/types"
 	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/evmos/ethermint/ethereum/eip712"
-	"github.com/evmos/ethermint/types"
 
 	"github.com/ethereum/go-ethereum/common"
 	ethtypes "github.com/ethereum/go-ethereum/core/types"
@@ -31,13 +31,13 @@ import (
 	authtx "github.com/cosmos/cosmos-sdk/x/auth/tx"
 	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
 
-	"github.com/evmos/ethermint/app"
-	ante "github.com/evmos/ethermint/app/ante"
-	"github.com/evmos/ethermint/encoding"
-	"github.com/evmos/ethermint/tests"
-	"github.com/evmos/ethermint/x/evm/statedb"
-	evmtypes "github.com/evmos/ethermint/x/evm/types"
-	feemarkettypes "github.com/evmos/ethermint/x/feemarket/types"
+	"github.com/Canto-Network/ethermint-test/app"
+	ante "github.com/Canto-Network/ethermint-test/app/ante"
+	"github.com/Canto-Network/ethermint-test/encoding"
+	"github.com/Canto-Network/ethermint-test/tests"
+	"github.com/Canto-Network/ethermint-test/x/evm/statedb"
+	evmtypes "github.com/Canto-Network/ethermint-test/x/evm/types"
+	feemarkettypes "github.com/Canto-Network/ethermint-test/x/feemarket/types"
 
 	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 )

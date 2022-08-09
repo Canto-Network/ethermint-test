@@ -13,12 +13,12 @@ import (
 	"github.com/cosmos/cosmos-sdk/x/auth/legacy/legacytx"
 	authsigning "github.com/cosmos/cosmos-sdk/x/auth/signing"
 
+	"github.com/Canto-Network/ethermint-test/crypto/ethsecp256k1"
+	"github.com/Canto-Network/ethermint-test/ethereum/eip712"
+	ethermint "github.com/Canto-Network/ethermint-test/types"
+	evmtypes "github.com/Canto-Network/ethermint-test/x/evm/types"
 	ethcrypto "github.com/ethereum/go-ethereum/crypto"
 	"github.com/ethereum/go-ethereum/crypto/secp256k1"
-	"github.com/evmos/ethermint/crypto/ethsecp256k1"
-	"github.com/evmos/ethermint/ethereum/eip712"
-	ethermint "github.com/evmos/ethermint/types"
-	evmtypes "github.com/evmos/ethermint/x/evm/types"
 )
 
 var ethermintCodec codec.ProtoCodecMarshaler

@@ -9,19 +9,19 @@ import (
 
 	"github.com/stretchr/testify/suite"
 
+	"github.com/Canto-Network/ethermint-test/crypto/ethsecp256k1"
+	"github.com/Canto-Network/ethermint-test/tests"
 	"github.com/cosmos/cosmos-sdk/client"
 	"github.com/cosmos/cosmos-sdk/crypto/keyring"
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/evmos/ethermint/crypto/ethsecp256k1"
-	"github.com/evmos/ethermint/tests"
 
 	"github.com/ethereum/go-ethereum/common"
 	ethtypes "github.com/ethereum/go-ethereum/core/types"
 	"github.com/ethereum/go-ethereum/crypto"
 
-	"github.com/evmos/ethermint/app"
-	"github.com/evmos/ethermint/encoding"
-	"github.com/evmos/ethermint/x/evm/types"
+	"github.com/Canto-Network/ethermint-test/app"
+	"github.com/Canto-Network/ethermint-test/encoding"
+	"github.com/Canto-Network/ethermint-test/x/evm/types"
 )
 
 const invalidFromAddress = "0x0000"

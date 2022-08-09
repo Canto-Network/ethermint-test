@@ -9,10 +9,10 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
+	"github.com/Canto-Network/ethermint-test/tests"
+	evmtypes "github.com/Canto-Network/ethermint-test/x/evm/types"
 	"github.com/ethereum/go-ethereum/core/types"
 	ethparams "github.com/ethereum/go-ethereum/params"
-	"github.com/evmos/ethermint/tests"
-	evmtypes "github.com/evmos/ethermint/x/evm/types"
 )
 
 func (suite AnteTestSuite) TestAnteHandler() {

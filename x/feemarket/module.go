@@ -19,10 +19,10 @@ import (
 	"github.com/cosmos/cosmos-sdk/types/module"
 	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
 
-	"github.com/evmos/ethermint/x/feemarket/client/cli"
-	"github.com/evmos/ethermint/x/feemarket/keeper"
-	"github.com/evmos/ethermint/x/feemarket/simulation"
-	"github.com/evmos/ethermint/x/feemarket/types"
+	"github.com/Canto-Network/ethermint-test/x/feemarket/client/cli"
+	"github.com/Canto-Network/ethermint-test/x/feemarket/keeper"
+	"github.com/Canto-Network/ethermint-test/x/feemarket/simulation"
+	"github.com/Canto-Network/ethermint-test/x/feemarket/types"
 )
 
 var (

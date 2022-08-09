@@ -5,12 +5,12 @@ import (
 	"math/big"
 	"testing"
 
+	"github.com/Canto-Network/ethermint-test/app"
+	"github.com/Canto-Network/ethermint-test/encoding"
+	evmtypes "github.com/Canto-Network/ethermint-test/x/evm/types"
 	"github.com/cosmos/cosmos-sdk/client"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	authtx "github.com/cosmos/cosmos-sdk/x/auth/tx"
-	"github.com/evmos/ethermint/app"
-	"github.com/evmos/ethermint/encoding"
-	evmtypes "github.com/evmos/ethermint/x/evm/types"
 	proto "github.com/gogo/protobuf/proto"
 
 	"github.com/stretchr/testify/require"

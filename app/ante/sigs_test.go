@@ -3,9 +3,9 @@ package ante_test
 import (
 	"math/big"
 
-	"github.com/evmos/ethermint/tests"
-	"github.com/evmos/ethermint/x/evm/statedb"
-	evmtypes "github.com/evmos/ethermint/x/evm/types"
+	"github.com/Canto-Network/ethermint-test/tests"
+	"github.com/Canto-Network/ethermint-test/x/evm/statedb"
+	evmtypes "github.com/Canto-Network/ethermint-test/x/evm/types"
 )
 
 func (suite AnteTestSuite) TestSignatures() {

@@ -1,4 +1,4 @@
-module github.com/evmos/ethermint
+module github.com/Canto-Network/ethermint-test
 
 go 1.18
 
